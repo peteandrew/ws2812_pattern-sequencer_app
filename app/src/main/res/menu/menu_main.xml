@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_add_instruction"
+        android:title="@string/action_add_instruction"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_clear_instructions"
+        android:title="Clear instructions"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_connect"
+        android:title="Connect to device"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_send"
+        android:title="@string/action_send"
+        app:showAsAction="ifRoom"/>
+
+</menu>
